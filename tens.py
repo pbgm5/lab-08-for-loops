@@ -1,16 +1,9 @@
- <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <script>
-      for (var i = 20; i <= 100; i = i + 10) {
-        console.log(i);
-        document.write(i + "<br>");
-      }
+for i in range(20, 110, 10):
+    print(i)
+    
 
-    </script>
-  </body>
-</html>
+
+
+# for (var i = 20; i <= 100; i = i + 10) {}
+#   console.log(i);
+# # }
