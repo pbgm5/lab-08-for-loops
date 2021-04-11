@@ -6,8 +6,17 @@
   </head>
   <body>
     <script>
-      var userinput = prompt("Give me a number");
-    </script>
+      var average = 0;
+      var sum = 0;
+      for (var i = 0; i < 4; i = i + 1) {
+        var userinput = prompt("Number please...");
+        var usernum = parseInt(userinput, 10);
+        sum = sum + usernum;
+        console.log("User number is: " + usernum + " and the current sum is: " + sum);
+      }
 
+      average = sum / 4;
+      console.log("The average is: " + average);
+    </script>
   </body>
 </html>

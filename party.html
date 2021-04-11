@@ -6,11 +6,16 @@
   </head>
   <body>
     <script>
-      for (var i = 20; i <= 100; i = i + 10) {
-        console.log(i);
-        document.write(i + "<br>");
+      var userinput = prompt("Let's paty! How long until the party?(Give me a number.)");
+      var usernum = parseInt(userinput, 10);
+      if (usernum < 1) {
+        console.log("PARTY NOW!!!");
+      } else {
+        for (var i = usernum; i >= 1; i = i - 1) {
+          console.log(i);
+        }
+        console.log("PARTY TIME!!!");
       }
-
     </script>
   </body>
 </html>
